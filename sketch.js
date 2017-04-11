@@ -50,7 +50,7 @@ function hello(){
     for(var i = 0;i < 300; i += 20){
         noFill();
         stroke(28, 221, 208);
-        bezier(jerome-(i/1), 300 + i, 40, 20, 400, 300, 240-(i/16), 300 + (i/8));
+        bezier(jerome || mouseX -(i/1), mouseY + i, 40, 20, 400, 300, 240-(i/16), 300 + (i/8));
     }
     fill(142, 68, 173);
     stroke(241, 196, 15);
