@@ -1,3 +1,9 @@
 body{
     text-align: center;
+    background-color: #f39c12;
+}
+
+h1{
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
 }
